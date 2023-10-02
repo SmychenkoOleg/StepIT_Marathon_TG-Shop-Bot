@@ -21,7 +21,7 @@ def menu_check(message):
         shopbot.send_message(message.chat.id,
                              f"Ось тобі, {user} наші контакти. \n ☎️ Тел.:0 800 300 500, \n 📫e-mail: mail@mail.com")
     else:
-        shopbot.send_message(message.chat.id, f'Слухай, {user}, в тебе все нормально з пальцями? Боя тебе не розумію!')
+        shopbot.send_message(message.chat.id, f'Слухай, {user}, в тебе все нормально з пальцями? Бо ти щось таке пишеш, що я тебе не розумію!')
 
 
 shopbot.polling(none_stop=True, interval=0)
