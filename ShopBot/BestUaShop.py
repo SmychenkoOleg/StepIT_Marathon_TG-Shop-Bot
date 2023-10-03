@@ -16,7 +16,7 @@ def menu_check(message):
     elif any(item in answer for item in dataArray.words_1):
         shopbot.send_message(message.chat.id, f'Добре ! Тож обирай, будь ласка категорії товарів - в мене є бухло та цигарки !')
     elif any(item in answer for item in dataArray.words_2):
-        shopbot.send_message(message.chat.id, f"Та ти ж, {user} ще нічого не вибрав та не поклав у кошик! ")
+        shopbot.send_message(message.chat.id, f"Та ти ж, {user} ще нічого не вибрав та не поклав у кошик! \n І навіщо ото питати про кошик?")
     elif any(item in answer for item in dataArray.words_3):
         shopbot.send_message(message.chat.id,
                              f"Нарешті спитав! Ось тобі, {user} наші контакти. \n ☎️ Тел.:0 800 300 500, \n 📫e-mail: mail@mail.com")
