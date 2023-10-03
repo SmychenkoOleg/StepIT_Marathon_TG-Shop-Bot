@@ -11,13 +11,15 @@ shopbot = telebot.TeleBot(token)
 def menu_check(message):
     user = message.from_user.username
     answer = message.text.lower()
-    if any(item in answer for item in dataArray.words_1):
-        shopbot.send_message(message.chat.id, f'Привіт, {user} ! Оберіть будь ласка категорії товарів')
+    if any(item in answer for item in dataArray.words_0):
+        shopbot.send_message(message.chat.id, f'Привіт, {user} ! Якими шляхами тебе завело до мене в гості?')
+    elif any(item in answer for item in dataArray.words_1):
+        shopbot.send_message(message.chat.id, f'Добре ! Тож обирай, будь ласка категорії товарів - в мене є бухло та цигарки !')
     elif any(item in answer for item in dataArray.words_2):
-        shopbot.send_message(message.chat.id, f"Та ви, {user} ще нічого не вибрали")
+        shopbot.send_message(message.chat.id, f"Та ти ж, {user} ще нічого не вибрав та не поклав у кошик! ")
     elif any(item in answer for item in dataArray.words_3):
         shopbot.send_message(message.chat.id,
-                             f"Ось тобі, {user} наші контакти. \n ☎️ Тел.:0 800 300 500, \n 📫e-mail: mail@mail.com")
+                             f"Нарешті спитав! Ось тобі, {user} наші контакти. \n ☎️ Тел.:0 800 300 500, \n 📫e-mail: mail@mail.com")
     else:
         shopbot.send_message(message.chat.id,
                              f'Слухай, {user}, в тебе все нормально з пальцями? Бо ти щось таке пишеш, що я тебе не розумію!')
