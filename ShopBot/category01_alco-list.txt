@@ -1,0 +1,10 @@
+Виски Ballantine's Finest;0.7 L;3 yo;549 UAH
+Виски Chivas Regal;1.0 L;12 yo;1659 UAH
+Виски Nucky Thompson;0.7 L;1 yo;439 UAH
+Виски Mount Eagles;0.7 L;3 yo;599 UAH
+Виски Black Bull Kyloe;0.7 L;3 yo;749 UAH
+Виски Scottish Glory Blended;0.7 L;3 yo;399 UAH
+Виски Jameson;0.7 L;3 yo;625 UAH
+Виски Jameson;0.35 L;3 yo;359 UAH
+Виски Talisker;0.7 L ;10 yo;1899 UAH
+Виски Jim Beam White Label;0.7 L;5 yo;549 UAH
